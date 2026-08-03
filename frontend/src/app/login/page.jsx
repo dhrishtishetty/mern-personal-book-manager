@@ -34,8 +34,7 @@ export default function Login() {
                 formData
             );
 
-            document.cookie = `token=${data.token}; path=/`;
-
+            localStorage.setItem("token", data.token);
             localStorage.setItem("user", JSON.stringify(data));
 
             setUser(data);
