@@ -32,8 +32,7 @@ export default function Register() {
         try {
             const { data } = await api.post("/auth/register", formData); 
 
-            document.cookie = `token=${data.token}; path=/`;
-
+            localStorage.setItem("token", data.token);
             localStorage.setItem("user", JSON.stringify(data));
 
             setUser(data);
