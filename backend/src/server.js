@@ -16,12 +16,11 @@ app.use(
     cors({
         origin: [
             "https://mern-personal-book-manager.vercel.app",
+            "https://mern-personal-book-manager-git-main-dhrishti-shetty-s-projects.vercel.app",
             "http://localhost:3000",
-            "http://localhost:5173",
+            "http://localhost:5173"
         ],
         credentials: true,
-        methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-        allowedHeaders: ["Content-Type", "Authorization"],
     })
 );
 
