@@ -15,13 +15,17 @@ const port = process.env.PORT || 5000;
 app.use(
     cors({
         origin: [
+            "https://mern-personal-book-manager.vercel.app",
             "http://localhost:3000",
             "http://localhost:5173",
-            process.env.CLIENT_URL,
         ],
         credentials: true,
+        methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        allowedHeaders: ["Content-Type", "Authorization"],
     })
 );
+
+app.options("*", cors());
 
 app.use(express.json());
 
