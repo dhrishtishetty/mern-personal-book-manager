@@ -103,7 +103,23 @@ GET    /api/books
 POST   /api/books
 PUT    /api/books/:id
 DELETE /api/books/:id
+
 ```
+
+### Screenshots
+
+```
+Login Page: 
+<img width="1912" height="961" alt="Screenshot 2026-08-03 135908" src="https://github.com/user-attachments/assets/83173a12-e735-4b4b-b89e-54b2cf3b9723" />
+
+User Dashboard Page:
+<img width="1917" height="956" alt="Screenshot 2026-08-03 135811" src="https://github.com/user-attachments/assets/1d966c47-f85e-4a11-89fb-37181dc508c7" />
+
+Edit Book Page:
+<img width="1917" height="962" alt="Screenshot 2026-08-03 135827" src="https://github.com/user-attachments/assets/2119af83-383e-469f-9c34-0e6d23fc4721" />
+
+```
+
 
 ## 🌐 Deployment
 
