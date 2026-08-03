@@ -124,7 +124,9 @@ Edit Book Page:
 ## 🌐 Deployment
 
 Frontend deployed on Vercel  : https://mern-personal-book-manager.vercel.app/
+
 Backend deployed on Render   : https://personal-book-manager-mern.onrender.com
+
 Database hosted on MongoDB Atlas
 
 ## 👩‍💻 Author
